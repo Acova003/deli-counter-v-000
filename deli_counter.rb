@@ -10,7 +10,7 @@ def line(katz_deli)
     position = "The line is currently: "
     katz_deli.each.with_index(1) do |person, pos|
       position << "#{pos}. #{person}"
-      puts position
+    puts position
     end
   end
 end 
