@@ -11,7 +11,7 @@ def line(katz_deli)
     katz_deli.each.with_index(1) do |person, pos|
       position << "#{pos}. #{person}"
     end
-    
+    puts position
   end
 end 
 
